@@ -1,0 +1,110 @@
+body { padding-top: 70px; }
+
+section {
+  margin: 0 20px;
+}
+
+a:focus {
+  outline: none;
+}
+
+.navbar-nav li.loader {
+    margin: 12px 24px 0 6px;
+}
+
+.no-selection {
+  margin: 20px;
+}
+
+.contact-list {
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.panel {
+  margin: 20px;
+}
+
+.button-bar {
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #ddd;
+  background: white;
+}
+
+.button-bar > button {
+  float: right;
+  margin: 20px;
+}
+
+li.list-group-item {
+  list-style: none;
+}
+
+li.list-group-item > a {
+  text-decoration: none;
+}
+
+li.list-group-item.active > a {
+  color: white;
+}
+
+
+
+.header-link{    
+    padding: 0 20px;
+    height:100%;
+}
+.navbar-brand{
+    height: 87px;
+}
+
+/*caroussel*/
+.carousel-indicators li{
+      border: 1px solid #607D8B;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #F44336;
+}
+#myCarousel{
+  height:350px;
+  border-radius: 25px;
+  border: 2px solid #F44336;
+  padding: 20px;
+  margin:10px;
+}
+.carousel-control.left, .carousel-control.right{
+  background-image:none;
+}
+/*boutons pour scroller*/
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{
+  width: 59px;
+height: 59px;
+}
+.glyphicon-chevron-left{
+background-image:url('images/previous-slide.png');
+
+}
+.glyphicon-chevron-left:hover{
+  background-image:url('images/previous-slide-hover.png');
+}
+
+.glyphicon-chevron-right{
+background-image:url('./images/next-slide-hover.png');
+
+}
+.glyphicon-chevron-right:hover{
+  background-image:url('./images/next-slide-hover.png');
+}
+.glyphicon-chevron-left:before,.glyphicon-chevron-right:before{
+  content :no-close-quote;
+}
+.carousel-caption{
+color:#000;
+}
+/**/
